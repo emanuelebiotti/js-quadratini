@@ -20,12 +20,4 @@
 
 // Tuttavia i quadratini devono avere a ogni refresh un'assegnazione random dei due colori!!
 
-
-$('.quadratino').click(function(){
-  var numero = Math.ceil(Math.random()*64);
-  if (numero <= 15) {
-    $(this).css({
-      'background-color' : 'red'
-    });
-  }
-});
+// devo fare sì che a ogni refresh i rossi e i verdi siano assegnati random.
