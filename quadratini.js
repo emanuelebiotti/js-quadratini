@@ -19,3 +19,13 @@
 // });
 
 // Tuttavia i quadratini devono avere a ogni refresh un'assegnazione random dei due colori!!
+
+
+$('.quadratino').click(function(){
+  var numero = Math.ceil(Math.random()*64);
+  if (numero <= 15) {
+    $(this).css({
+      'background-color' : 'red'
+    });
+  }
+});
