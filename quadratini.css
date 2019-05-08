@@ -1,0 +1,17 @@
+* {
+  box-sizing: border-box;
+}
+.container {
+  width:500px;
+  height:500px;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-flow: wrap;
+}
+.quadratino {
+  width:12.5%;
+  height: 12.5%;
+  border:1px solid black;
+}
